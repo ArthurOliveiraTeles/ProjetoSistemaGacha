@@ -61,7 +61,7 @@ while valido == True:
                 funcoes1.contadorTiros(15, True)
 
             # funcoes1.banner()
-            quest = str(input('\nDeseja continuar? [S/N]')).upper()[0]
+            quest = str(input('\nDeseja continuar?? [S/N]')).upper()[0]
 
         if quest == 'N':
             print('Volte sempre!')

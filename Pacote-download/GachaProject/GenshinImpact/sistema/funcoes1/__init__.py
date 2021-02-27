@@ -103,7 +103,8 @@ def tiro(pool=0, chars=[], garantido=False):  # chars é a LISTA ( lembra!!! )
 
 def contadorTiros(cont=0, pit=False):
     if pit:
-        return tiro(0, True)
+        return tiro(0, True) # Aqui preciso retornar em uma futura função em outro arquivo
+                                    # para conseguir fazer o pit
 
     print(f'Contador de tiros: {cont}')
 
